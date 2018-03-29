@@ -2,7 +2,7 @@
   @include alt-font
   font-weight: 500
 .main-font
-  @include main-font 
+  @include main-font
 
 // heading
 h1, h2, h3, h4, h5, h6
@@ -68,21 +68,21 @@ h6
   &-black
     color: $black
   &-extra-dark-gray
-    color: $extra-dark-gray
+    color: $black-1
   &-dark-gray
-    color: $dark-gray
+    color: $gray
   &-extra-medium-gray
-    color: $extra-medium-gray
+    color: $gray-1
   &-medium-gray
-    color: $medium-gray
+    color: $gray-3
   &-extra-light-gray
-    color: $extra-light-gray
+    color: $gray-2
   &-light-gray
-    color: $light-gray
+    color: $gray-5
   &-very-light-gray
-    color: $very-light-gray
+    color: $gray-6
   &-deep-pink
-    color: $deep-pink
+    color: $red-5
 
 /* dropcap */
 .first-letter
@@ -150,7 +150,7 @@ blockquote
   margin: 45px 0
 
   footer
-    color: $medium-gray
+    color: $gray-3
 
 .blog-image
   blockquote
@@ -165,7 +165,7 @@ blockquote
       top: 5px
       position: relative
       margin-right: 12px
-      color: $deep-pink
+      color: $red-5
 
 /* text link hover color */
 a
@@ -177,25 +177,25 @@ a
     &-white:hover i,
     &-white:focus,
     &-white:focus i
-      color: $deep-pink
+      color: $red-5
 
     &-black, &-black i
       color: $black
 
     &-dark-gray
-      color: $dark-gray
+      color: $gray
 
     &-dark-gray:hover, &-dark-gray:focus
-      color: $extra-dark-gray
+      color: $black-1
 
     &-extra-dark-gray
-      color: $extra-dark-gray
+      color: $black-1
 
     &-extra-dark-gray:hover, &-extra-dark-gray:focus
       color: $black
 
     &-deep-pink, &-deep-pink i
-      color: $deep-pink
+      color: $red-5
 
     &-deep-pink:hover, &-deep-pink:hover i, &-deep-pink:focus, &-deep-pink:focus i
       color: $white
@@ -213,35 +213,35 @@ a
 
     &-deep-pink-hover
       &:hover, &:focus
-        color: $deep-pink
+        color: $red-5
 
     &-extra-dark-gray-hover
       &:hover
-        color: $extra-dark-gray
+        color: $black-1
 
     &-dark-gray-hover
       &:hover
-        color: $dark-gray
+        color: $gray
 
     &-extra-medium-gray-hover
       &:hover
-        color: $extra-medium-gray
+        color: $gray-1
 
     &-medium-gray-hover
       &:hover
-        color: $medium-gray
+        color: $gray-3
 
     &-extra-light-gray-hover
       &:hover
-        color: $extra-light-gray
+        color: $gray-2
 
     &-light-gray-hover
       &:hover
-        color: $light-gray
+        color: $gray-5
 
     &-very-light-gray-hover
       &:hover
-        color: $very-light-gray
+        color: $gray-6
 
 /* letter spacing */
 .no-letter-spacing
@@ -436,20 +436,20 @@ a
     margin-right: auto
 
   &-middle-line-deep-pink:before
-    border-bottom: 1px solid $deep-pink
+    border-bottom: 1px solid $red-5
     position: absolute
     content: ""
     width: 100%
     margin-top: 5px
     margin-left: -20px
     top: 50%
-    @include transform(-50%)
+    @include transformY(-50%)
 
   &-decoration
     &-line-through-black, &-line-through-deep-pink
       position: relative
     &-line-through-deep-pink:before
-      background: $deep-pink
+      background: $red-5
     &-line-through-black:before
       background: $black
 
@@ -460,7 +460,7 @@ a
       position: absolute
       top: 53%
       width: calc(100% + 20px)
-      @include transform(-53%)
+      @include transformY(-53%)
 
 /* line height */
 .line-height

@@ -1,58 +1,6 @@
 // vars
+@import "theme/keyframes"
 @import "theme/colors"
 @import "theme/opacity"
-// z-index
-
-
-/* image */
-$arrow-image: url("../images/select-arrow.png")
-$ico-usa: url("../images/country-flag-16X16/usa.png")
-$ico-england: url("../images/country-flag-16X16/england.png")
-$ico-china: url("../images/country-flag-16X16/china.png")
-$ico-hongkong: url("../images/country-flag-16X16/hong-kong.png")
-$ico-france: url("../images/country-flag-16X16/france.png")
-/* mixin */
-
-@mixin alt-font
-  font-family: 'Montserrat', sans-serif
-@mixin main-font
-  font-family: 'Roboto', sans-serif
-
-@mixin transform($translateY)
-  -webkit-transform: translateY($translateY)
-  -moz-transform: translateY($translateY)
-  -ms-transform: translateY($translateY)
-  -o-transform: translateY($translateY)
-  transform: translateY($translateY)
-
-@mixin transformXY($translateX, $translateY)
-  -webkit-transform: translateX($translateX) translateY( $translateY)
-  -moz-transform: translateX($translateX) translateY( $translateY)
-  -ms-transform: translateX($translateX) translateY( $translateY)
-  -o-transform: translateX($translateX) translateY( $translateY)
-  transform: translateX($translateX) translateY( $translateY)
-
-@mixin transition-duration($var)
-  transition-duration: $var
-  -moz-transition-duration: $var
-  -webkit-transition-duration: $var
-  -o-transition-duration: $var
-  -ms-transition-duration: $var
-
-@mixin transition-timing-function($var)
-  transition-timing-function: $var
-  -moz-transition-timing-function: $var
-  -webkit-transition-timing-function: $var
-  -o-transition-timing-function: $var
-  -ms-transition-timing-function: $var
-
-@mixin font-size-weight
-  font-weight: 400
-  font-size: 14px
-
-@mixin opacity-parameter
-  position: absolute
-  height: 100%
-  width: 100%
-  top: 0
-  left: 0
+@import "theme/mixins"
+@import "theme/image"

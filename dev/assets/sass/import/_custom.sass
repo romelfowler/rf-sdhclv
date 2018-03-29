@@ -32,7 +32,7 @@ section
   &-bottom
     background: transparent
     border: 0
-    border-bottom: 1px solid $extra-medium-gray
+    border-bottom: 1px solid $gray-1
     padding: 10px 0
     margin-bottom: 30px
     font-size: 14px
@@ -40,7 +40,7 @@ section
     &:focus
       background: transparent
       border: 0
-      border-bottom: 1px solid $medium-gray
+      border-bottom: 1px solid $gray-3
 
     &::-webkit-input-placeholder
       font-weight: 300
@@ -91,7 +91,7 @@ section
   width: 100%
   overflow: hidden
   background: $arrow-image no-repeat 97% 50%
-  border: 1px solid $very-light-gray
+  border: 1px solid $gray-6
   margin-bottom: 20px
 
   select
@@ -130,12 +130,12 @@ section
       height: 62px
 
     & .required-error
-      border: 1px solid $deep-pink !important
+      border: 1px solid $red-5 !important
 
     & .required-error,
     & .required-error+&-btn button,
     & .required-error+&-btn a.btn
-      border: 1px solid $deep-pink !important
+      border: 1px solid $red-5 !important
 
   &-border
 
@@ -155,7 +155,7 @@ section
 
 input
   .input-bg
-    background-color: $offwhite
+    background-color: $white-1
     border-radius: 4px
     border: 1px solid $black-opacity-1
     padding: 10px 20px
@@ -170,7 +170,7 @@ textarea.input-bg:focus
   border: 1px solid $black-opacity-3
 
 textarea.input-bg
-  background-color: $offwhite
+  background-color: $white-1
   border-radius: 4px
   border: 1px solid $black-opacity-1
   padding: 10px 20px
@@ -186,12 +186,12 @@ textarea.input-bg
     @include font-size-weight
 
 .required-error
-  border: 1px solid $light-red !important
+  border: 1px solid $red-3 !important
 
 .input-border-bottom.required-error
   border-width: 0 !important
   border-bottom-width: 1px !important
-  border-bottom-color: $light-red !important
+  border-bottom-color: $red-3 !important
 
 #success
   &-subscribe
@@ -199,8 +199,8 @@ textarea.input-bg
       clear: both
       margin: 0 15px 15px
       text-align: center
-      border: 1px solid $lime-green
-      color: $lime-green
+      border: 1px solid $green
+      color: $green
       padding: 2px 0
       display: none
       font-size: 11px
@@ -208,8 +208,8 @@ textarea.input-bg
       clear: both
       margin: 0 15px 15px
       text-align: center
-      border: 1px solid $lime-green
-      color: $lime-green
+      border: 1px solid $green
+      color: $green
       padding: 2px 0
       display: none
       font-size: 11px
@@ -219,8 +219,8 @@ textarea.input-bg
       clear: both
       margin: 0 15px 15px
       text-align: center
-      border: 1px solid $lime-green
-      color: $lime-green
+      border: 1px solid $green
+      color: $green
       padding: 2px 0
       display: none
       font-size: 11px
@@ -229,8 +229,8 @@ textarea.input-bg
       clear: both
       margin: 0 15px 15px
       text-align: center
-      border: 1px solid $lime-green
-      color: $lime-green
+      border: 1px solid $green
+      color: $green
       padding: 2px 0
       display: none
       font-size: 11px
@@ -239,8 +239,8 @@ textarea.input-bg
       clear: both
       margin: 0 15px 15px
       text-align: center
-      border: 1px solid $lime-green
-      color: $lime-green
+      border: 1px solid $green
+      color: $green
       padding: 2px 0
       display: none
       font-size: 11px
@@ -250,8 +250,8 @@ textarea.input-bg
       clear: both
       margin: 0 15px 15px
       text-align: center
-      border: 1px solid $lime-green
-      color: $lime-green
+      border: 1px solid $green
+      color: $green
       padding: 2px 0
       display: none
       font-size: 11px
@@ -260,8 +260,8 @@ textarea.input-bg
       clear: both
       margin: 0 15px 15px
       text-align: center
-      border: 1px solid $lime-green
-      color: $lime-green
+      border: 1px solid $green
+      color: $green
       padding: 2px 0
       display: none
       font-size: 11px
@@ -400,7 +400,7 @@ textarea.input-bg
     &-bottom
       vertical-align: bottom
   &-middle
-    @include transform(-50%)
+    @include transformY(-50%)
     position: absolute
     top: 50%
     left: 0
