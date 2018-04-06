@@ -392,9 +392,17 @@ h6 {
 .text-deep-pink {
   color: #ff214f;
 }
+/* line 86, ../sass/import/_typography.sass */
+.text-theme-1 {
+  color: #ceb234;
+}
+/* line 88, ../sass/import/_typography.sass */
+.text-theme-2 {
+  color: #c1bdac;
+}
 
 /* dropcap */
-/* line 88, ../sass/import/_typography.sass */
+/* line 91, ../sass/import/_typography.sass */
 .first-letter {
   float: left;
   font-size: 50px;
@@ -404,7 +412,7 @@ h6 {
   padding: 10px 0;
   font-weight: 600;
 }
-/* line 97, ../sass/import/_typography.sass */
+/* line 100, ../sass/import/_typography.sass */
 .first-letter-big {
   float: left;
   font-size: 110px;
@@ -415,7 +423,7 @@ h6 {
   font-weight: 600;
   position: relative;
 }
-/* line 107, ../sass/import/_typography.sass */
+/* line 110, ../sass/import/_typography.sass */
 .first-letter-big:before {
   position: absolute;
   border-bottom: 1px solid;
@@ -425,7 +433,7 @@ h6 {
   top: 55%;
   left: 0;
 }
-/* line 116, ../sass/import/_typography.sass */
+/* line 119, ../sass/import/_typography.sass */
 .first-letter-block {
   font-size: 30px;
   height: 55px;
@@ -435,12 +443,12 @@ h6 {
   font-weight: 500;
   margin-top: 5px;
 }
-/* line 125, ../sass/import/_typography.sass */
+/* line 128, ../sass/import/_typography.sass */
 .first-letter-block-round {
   border-radius: 6px;
   border: 1px solid;
 }
-/* line 129, ../sass/import/_typography.sass */
+/* line 132, ../sass/import/_typography.sass */
 .first-letter-round {
   border-radius: 50%;
   font-size: 35px;
@@ -451,11 +459,11 @@ h6 {
 }
 
 /* blockquote */
-/* line 138, ../sass/import/_typography.sass */
+/* line 141, ../sass/import/_typography.sass */
 blockquote {
   padding: 20px 30px;
 }
-/* line 141, ../sass/import/_typography.sass */
+/* line 144, ../sass/import/_typography.sass */
 blockquote p {
   font-size: 18px;
   line-height: 30px;
@@ -463,24 +471,24 @@ blockquote p {
   font-weight: 300;
 }
 
-/* line 147, ../sass/import/_typography.sass */
+/* line 150, ../sass/import/_typography.sass */
 blockquote {
   border-left: 2px solid;
   padding: 15px 40px;
   margin: 45px 0;
 }
-/* line 152, ../sass/import/_typography.sass */
+/* line 155, ../sass/import/_typography.sass */
 blockquote footer {
   color: #939393;
 }
 
-/* line 156, ../sass/import/_typography.sass */
+/* line 159, ../sass/import/_typography.sass */
 .blog-image blockquote {
   padding: 60px;
   border: 0;
   margin: 0;
 }
-/* line 161, ../sass/import/_typography.sass */
+/* line 164, ../sass/import/_typography.sass */
 .blog-image blockquote h6:before {
   content: "";
   font-family: "themify";
@@ -492,266 +500,266 @@ blockquote footer {
 }
 
 /* text link hover color */
-/* line 173, ../sass/import/_typography.sass */
+/* line 176, ../sass/import/_typography.sass */
 a.text-link-white, a.text-link-white i {
   color: #FFF;
 }
-/* line 176, ../sass/import/_typography.sass */
+/* line 179, ../sass/import/_typography.sass */
 a.text-link-white:hover, a.text-link-white:hover i, a.text-link-white:focus, a.text-link-white:focus i {
   color: #ff214f;
 }
-/* line 182, ../sass/import/_typography.sass */
+/* line 185, ../sass/import/_typography.sass */
 a.text-link-black, a.text-link-black i {
   color: #333333;
 }
-/* line 185, ../sass/import/_typography.sass */
+/* line 188, ../sass/import/_typography.sass */
 a.text-link-dark-gray {
   color: #626262;
 }
-/* line 188, ../sass/import/_typography.sass */
+/* line 191, ../sass/import/_typography.sass */
 a.text-link-dark-gray:hover, a.text-link-dark-gray:focus {
   color: #232323;
 }
-/* line 191, ../sass/import/_typography.sass */
+/* line 194, ../sass/import/_typography.sass */
 a.text-link-extra-dark-gray {
   color: #232323;
 }
-/* line 194, ../sass/import/_typography.sass */
+/* line 197, ../sass/import/_typography.sass */
 a.text-link-extra-dark-gray:hover, a.text-link-extra-dark-gray:focus {
   color: #333333;
 }
-/* line 197, ../sass/import/_typography.sass */
+/* line 200, ../sass/import/_typography.sass */
 a.text-link-deep-pink, a.text-link-deep-pink i {
   color: #ff214f;
 }
-/* line 200, ../sass/import/_typography.sass */
+/* line 203, ../sass/import/_typography.sass */
 a.text-link-deep-pink:hover, a.text-link-deep-pink:hover i, a.text-link-deep-pink:focus, a.text-link-deep-pink:focus i {
   color: #FFF;
 }
 
 /* hover color */
-/* line 207, ../sass/import/_typography.sass */
+/* line 210, ../sass/import/_typography.sass */
 a.text-white-hover:hover, a.text-white-hover:focus {
   color: #FFF;
 }
-/* line 211, ../sass/import/_typography.sass */
+/* line 214, ../sass/import/_typography.sass */
 a.text-black-hover:hover, a.text-black-hover:focus {
   color: #333333;
 }
-/* line 215, ../sass/import/_typography.sass */
+/* line 218, ../sass/import/_typography.sass */
 a.text-deep-pink-hover:hover, a.text-deep-pink-hover:focus {
   color: #ff214f;
 }
-/* line 219, ../sass/import/_typography.sass */
+/* line 222, ../sass/import/_typography.sass */
 a.text-extra-dark-gray-hover:hover {
   color: #232323;
 }
-/* line 223, ../sass/import/_typography.sass */
+/* line 226, ../sass/import/_typography.sass */
 a.text-dark-gray-hover:hover {
   color: #626262;
 }
-/* line 227, ../sass/import/_typography.sass */
+/* line 230, ../sass/import/_typography.sass */
 a.text-extra-medium-gray-hover:hover {
   color: #757575;
 }
-/* line 231, ../sass/import/_typography.sass */
+/* line 234, ../sass/import/_typography.sass */
 a.text-medium-gray-hover:hover {
   color: #939393;
 }
-/* line 235, ../sass/import/_typography.sass */
+/* line 238, ../sass/import/_typography.sass */
 a.text-extra-light-gray-hover:hover {
   color: #b7b7b7;
 }
-/* line 239, ../sass/import/_typography.sass */
+/* line 242, ../sass/import/_typography.sass */
 a.text-light-gray-hover:hover {
   color: #d6d5d5;
 }
-/* line 243, ../sass/import/_typography.sass */
+/* line 246, ../sass/import/_typography.sass */
 a.text-very-light-gray-hover:hover {
   color: #ededed;
 }
 
 /* letter spacing */
-/* line 247, ../sass/import/_typography.sass */
+/* line 250, ../sass/import/_typography.sass */
 .no-letter-spacing {
   letter-spacing: 0px;
 }
 
-/* line 251, ../sass/import/_typography.sass */
+/* line 254, ../sass/import/_typography.sass */
 .letter-spacing-1 {
   letter-spacing: 1px;
 }
-/* line 253, ../sass/import/_typography.sass */
+/* line 256, ../sass/import/_typography.sass */
 .letter-spacing-2 {
   letter-spacing: 2px;
 }
-/* line 255, ../sass/import/_typography.sass */
+/* line 258, ../sass/import/_typography.sass */
 .letter-spacing-3 {
   letter-spacing: 3px;
 }
-/* line 257, ../sass/import/_typography.sass */
+/* line 260, ../sass/import/_typography.sass */
 .letter-spacing-4 {
   letter-spacing: 4px;
 }
-/* line 259, ../sass/import/_typography.sass */
+/* line 262, ../sass/import/_typography.sass */
 .letter-spacing-5 {
   letter-spacing: 5px;
 }
-/* line 261, ../sass/import/_typography.sass */
+/* line 264, ../sass/import/_typography.sass */
 .letter-spacing-6 {
   letter-spacing: 6px;
 }
-/* line 263, ../sass/import/_typography.sass */
+/* line 266, ../sass/import/_typography.sass */
 .letter-spacing-7 {
   letter-spacing: 7px;
 }
-/* line 265, ../sass/import/_typography.sass */
+/* line 268, ../sass/import/_typography.sass */
 .letter-spacing-8 {
   letter-spacing: 8px;
 }
-/* line 267, ../sass/import/_typography.sass */
+/* line 270, ../sass/import/_typography.sass */
 .letter-spacing-9 {
   letter-spacing: 9px;
 }
-/* line 269, ../sass/import/_typography.sass */
+/* line 272, ../sass/import/_typography.sass */
 .letter-spacing-10 {
   letter-spacing: 10px;
 }
-/* line 272, ../sass/import/_typography.sass */
+/* line 275, ../sass/import/_typography.sass */
 .letter-spacing-minus-1 {
   letter-spacing: -1px;
 }
-/* line 274, ../sass/import/_typography.sass */
+/* line 277, ../sass/import/_typography.sass */
 .letter-spacing-minus-2 {
   letter-spacing: -2px;
 }
-/* line 276, ../sass/import/_typography.sass */
+/* line 279, ../sass/import/_typography.sass */
 .letter-spacing-minus-3 {
   letter-spacing: -3px;
 }
-/* line 278, ../sass/import/_typography.sass */
+/* line 281, ../sass/import/_typography.sass */
 .letter-spacing-minus-4 {
   letter-spacing: -4px;
 }
-/* line 280, ../sass/import/_typography.sass */
+/* line 283, ../sass/import/_typography.sass */
 .letter-spacing-minus-5 {
   letter-spacing: -5px;
 }
-/* line 282, ../sass/import/_typography.sass */
+/* line 285, ../sass/import/_typography.sass */
 .letter-spacing-minus-6 {
   letter-spacing: -6px;
 }
-/* line 284, ../sass/import/_typography.sass */
+/* line 287, ../sass/import/_typography.sass */
 .letter-spacing-minus-7 {
   letter-spacing: -7px;
 }
-/* line 286, ../sass/import/_typography.sass */
+/* line 289, ../sass/import/_typography.sass */
 .letter-spacing-minus-8 {
   letter-spacing: -8px;
 }
-/* line 288, ../sass/import/_typography.sass */
+/* line 291, ../sass/import/_typography.sass */
 .letter-spacing-minus-9 {
   letter-spacing: -9px;
 }
-/* line 290, ../sass/import/_typography.sass */
+/* line 293, ../sass/import/_typography.sass */
 .letter-spacing-minus-10 {
   letter-spacing: -10px;
 }
 
 /* font weight */
-/* line 295, ../sass/import/_typography.sass */
+/* line 298, ../sass/import/_typography.sass */
 .font-weight-100 {
   font-weight: 100;
 }
-/* line 298, ../sass/import/_typography.sass */
+/* line 301, ../sass/import/_typography.sass */
 .font-weight-200 {
   font-weight: 200;
 }
-/* line 301, ../sass/import/_typography.sass */
+/* line 304, ../sass/import/_typography.sass */
 .font-weight-300 {
   font-weight: 300;
 }
-/* line 304, ../sass/import/_typography.sass */
+/* line 307, ../sass/import/_typography.sass */
 .font-weight-400 {
   font-weight: 400;
 }
-/* line 307, ../sass/import/_typography.sass */
+/* line 310, ../sass/import/_typography.sass */
 .font-weight-500 {
   font-weight: 500;
 }
-/* line 310, ../sass/import/_typography.sass */
+/* line 313, ../sass/import/_typography.sass */
 .font-weight-600 {
   font-weight: 600;
 }
-/* line 313, ../sass/import/_typography.sass */
+/* line 316, ../sass/import/_typography.sass */
 .font-weight-700 {
   font-weight: 700;
 }
-/* line 316, ../sass/import/_typography.sass */
+/* line 319, ../sass/import/_typography.sass */
 .font-weight-800 {
   font-weight: 800;
 }
-/* line 319, ../sass/import/_typography.sass */
+/* line 322, ../sass/import/_typography.sass */
 .font-weight-900 {
   font-weight: 900;
 }
 
 /* text property */
-/* line 324, ../sass/import/_typography.sass */
+/* line 327, ../sass/import/_typography.sass */
 .text-transform-unset {
   text-transform: unset;
 }
-/* line 326, ../sass/import/_typography.sass */
+/* line 329, ../sass/import/_typography.sass */
 .text-decoration-underline {
   text-decoration: underline;
 }
-/* line 328, ../sass/import/_typography.sass */
+/* line 331, ../sass/import/_typography.sass */
 .text-decoration-line-through {
   text-decoration: line-through;
 }
 
-/* line 332, ../sass/import/_typography.sass */
+/* line 335, ../sass/import/_typography.sass */
 .line-height-unset {
   line-height: unset;
 }
-/* line 334, ../sass/import/_typography.sass */
+/* line 337, ../sass/import/_typography.sass */
 .line-height-normal {
   line-height: normal;
 }
-/* line 336, ../sass/import/_typography.sass */
+/* line 339, ../sass/import/_typography.sass */
 .line-height-none {
   line-height: 0;
 }
 
-/* line 339, ../sass/import/_typography.sass */
+/* line 342, ../sass/import/_typography.sass */
 .word-wrap {
   word-wrap: break-word;
 }
 
-/* line 343, ../sass/import/_typography.sass */
+/* line 346, ../sass/import/_typography.sass */
 .text-nowrap {
   white-space: nowrap;
 }
-/* line 345, ../sass/import/_typography.sass */
+/* line 348, ../sass/import/_typography.sass */
 .text-transform-none {
   text-transform: none;
 }
 
-/* line 348, ../sass/import/_typography.sass */
+/* line 351, ../sass/import/_typography.sass */
 .title-line-through {
   padding: 0 15px;
 }
 
-/* line 352, ../sass/import/_typography.sass */
+/* line 355, ../sass/import/_typography.sass */
 .text-middle-line {
   position: relative;
   white-space: nowrap;
 }
-/* line 356, ../sass/import/_typography.sass */
+/* line 359, ../sass/import/_typography.sass */
 .text-outside-line {
   position: relative;
 }
-/* line 359, ../sass/import/_typography.sass */
+/* line 362, ../sass/import/_typography.sass */
 .text-outside-line::before {
   border-top: 1px solid;
   content: "";
@@ -763,7 +771,7 @@ a.text-very-light-gray-hover:hover {
   width: 40px;
   opacity: 0.4;
 }
-/* line 370, ../sass/import/_typography.sass */
+/* line 373, ../sass/import/_typography.sass */
 .text-outside-line::after {
   border-top: 1px solid;
   content: "";
@@ -775,12 +783,12 @@ a.text-very-light-gray-hover:hover {
   width: 40px;
   opacity: 0.4;
 }
-/* line 381, ../sass/import/_typography.sass */
+/* line 384, ../sass/import/_typography.sass */
 .text-leftside-line {
   position: relative;
   padding-left: 35px;
 }
-/* line 385, ../sass/import/_typography.sass */
+/* line 388, ../sass/import/_typography.sass */
 .text-leftside-line:before {
   border-top: 1px solid;
   content: "";
@@ -792,12 +800,12 @@ a.text-very-light-gray-hover:hover {
   width: 25px;
   opacity: 0.7;
 }
-/* line 396, ../sass/import/_typography.sass */
+/* line 399, ../sass/import/_typography.sass */
 .text-outside-line-full {
   position: relative;
   display: inline-block;
 }
-/* line 400, ../sass/import/_typography.sass */
+/* line 403, ../sass/import/_typography.sass */
 .text-outside-line-full::before {
   content: "";
   position: absolute;
@@ -810,7 +818,7 @@ a.text-very-light-gray-hover:hover {
   margin-right: 25px;
   opacity: 0.15;
 }
-/* line 412, ../sass/import/_typography.sass */
+/* line 415, ../sass/import/_typography.sass */
 .text-outside-line-full::after {
   content: "";
   position: absolute;
@@ -823,7 +831,7 @@ a.text-very-light-gray-hover:hover {
   margin-left: 25px;
   opacity: 0.15;
 }
-/* line 424, ../sass/import/_typography.sass */
+/* line 427, ../sass/import/_typography.sass */
 .text-middle-line:before {
   border-bottom: 1px solid;
   position: absolute;
@@ -832,14 +840,14 @@ a.text-very-light-gray-hover:hover {
   top: 53%;
   opacity: 0.35;
 }
-/* line 432, ../sass/import/_typography.sass */
+/* line 435, ../sass/import/_typography.sass */
 .text-bottom-line {
   width: 1px;
   border-top: 30px solid;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 438, ../sass/import/_typography.sass */
+/* line 441, ../sass/import/_typography.sass */
 .text-middle-line-deep-pink:before {
   border-bottom: 1px solid #ff214f;
   position: absolute;
@@ -854,19 +862,19 @@ a.text-very-light-gray-hover:hover {
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-/* line 449, ../sass/import/_typography.sass */
+/* line 452, ../sass/import/_typography.sass */
 .text-decoration-line-through-black, .text-decoration-line-through-deep-pink {
   position: relative;
 }
-/* line 451, ../sass/import/_typography.sass */
+/* line 454, ../sass/import/_typography.sass */
 .text-decoration-line-through-deep-pink:before {
   background: #ff214f;
 }
-/* line 453, ../sass/import/_typography.sass */
+/* line 456, ../sass/import/_typography.sass */
 .text-decoration-line-through-black:before {
   background: #333333;
 }
-/* line 456, ../sass/import/_typography.sass */
+/* line 459, ../sass/import/_typography.sass */
 .text-decoration-line-through-black::before, .text-decoration-line-through-deep-pink:before {
   content: "";
   height: 1px;
@@ -882,103 +890,103 @@ a.text-very-light-gray-hover:hover {
 }
 
 /* line height */
-/* line 467, ../sass/import/_typography.sass */
+/* line 470, ../sass/import/_typography.sass */
 .line-height-10 {
   line-height: 10px;
 }
-/* line 469, ../sass/import/_typography.sass */
+/* line 472, ../sass/import/_typography.sass */
 .line-height-13 {
   line-height: 13px;
 }
-/* line 471, ../sass/import/_typography.sass */
+/* line 474, ../sass/import/_typography.sass */
 .line-height-18 {
   line-height: 18px;
 }
-/* line 473, ../sass/import/_typography.sass */
+/* line 476, ../sass/import/_typography.sass */
 .line-height-20 {
   line-height: 20px;
 }
-/* line 475, ../sass/import/_typography.sass */
+/* line 478, ../sass/import/_typography.sass */
 .line-height-24 {
   line-height: 24px;
 }
-/* line 477, ../sass/import/_typography.sass */
+/* line 480, ../sass/import/_typography.sass */
 .line-height-22 {
   line-height: 22px;
 }
-/* line 479, ../sass/import/_typography.sass */
+/* line 482, ../sass/import/_typography.sass */
 .line-height-26 {
   line-height: 26px;
 }
-/* line 481, ../sass/import/_typography.sass */
+/* line 484, ../sass/import/_typography.sass */
 .line-height-28 {
   line-height: 28px;
 }
-/* line 483, ../sass/import/_typography.sass */
+/* line 486, ../sass/import/_typography.sass */
 .line-height-30 {
   line-height: 30px;
 }
-/* line 485, ../sass/import/_typography.sass */
+/* line 488, ../sass/import/_typography.sass */
 .line-height-35 {
   line-height: 35px;
 }
-/* line 487, ../sass/import/_typography.sass */
+/* line 490, ../sass/import/_typography.sass */
 .line-height-40 {
   line-height: 40px;
 }
-/* line 489, ../sass/import/_typography.sass */
+/* line 492, ../sass/import/_typography.sass */
 .line-height-45 {
   line-height: 45px;
 }
-/* line 491, ../sass/import/_typography.sass */
+/* line 494, ../sass/import/_typography.sass */
 .line-height-50 {
   line-height: 50px;
 }
-/* line 493, ../sass/import/_typography.sass */
+/* line 496, ../sass/import/_typography.sass */
 .line-height-55 {
   line-height: 55px;
 }
-/* line 495, ../sass/import/_typography.sass */
+/* line 498, ../sass/import/_typography.sass */
 .line-height-60 {
   line-height: 60px;
 }
-/* line 497, ../sass/import/_typography.sass */
+/* line 500, ../sass/import/_typography.sass */
 .line-height-65 {
   line-height: 65px;
 }
-/* line 499, ../sass/import/_typography.sass */
+/* line 502, ../sass/import/_typography.sass */
 .line-height-70 {
   line-height: 70px;
 }
-/* line 501, ../sass/import/_typography.sass */
+/* line 504, ../sass/import/_typography.sass */
 .line-height-75 {
   line-height: 75px;
 }
-/* line 503, ../sass/import/_typography.sass */
+/* line 506, ../sass/import/_typography.sass */
 .line-height-80 {
   line-height: 80px;
 }
-/* line 505, ../sass/import/_typography.sass */
+/* line 508, ../sass/import/_typography.sass */
 .line-height-85 {
   line-height: 85px;
 }
-/* line 507, ../sass/import/_typography.sass */
+/* line 510, ../sass/import/_typography.sass */
 .line-height-90 {
   line-height: 90px;
 }
-/* line 509, ../sass/import/_typography.sass */
+/* line 512, ../sass/import/_typography.sass */
 .line-height-95 {
   line-height: 95px;
 }
-/* line 511, ../sass/import/_typography.sass */
+/* line 514, ../sass/import/_typography.sass */
 .line-height-100 {
   line-height: 100px;
 }
-/* line 513, ../sass/import/_typography.sass */
+/* line 516, ../sass/import/_typography.sass */
 .line-height-110 {
   line-height: 110px;
 }
-/* line 515, ../sass/import/_typography.sass */
+/* line 518, ../sass/import/_typography.sass */
 .line-height-120 {
   line-height: 120px;
 }
@@ -1033,9 +1041,13 @@ a.text-very-light-gray-hover:hover {
 }
 /* line 26, ../sass/import/_background.sass */
 .bg-theme-color-1 {
-  background-color: #ff9933;
+  background-color: #ceb234;
 }
-/* line 29, ../sass/import/_background.sass */
+/* line 28, ../sass/import/_background.sass */
+.bg-theme-color-2 {
+  background-color: #c1bdac;
+}
+/* line 31, ../sass/import/_background.sass */
 .bg-transparent-white {
   background-color: rgba(255, 255, 255, 0.3);
   background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 37%, white 96%, white 100%);
@@ -1046,7 +1058,7 @@ a.text-very-light-gray-hover:hover {
   background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 37%, white 96%, white 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1);
 }
-/* line 39, ../sass/import/_background.sass */
+/* line 41, ../sass/import/_background.sass */
 .bg-transparent-black {
   background-color: transparent;
   background: -moz-linear-gradient(left, transparent 0%, transparent 37%, black 96%, black 100%);
@@ -1057,23 +1069,23 @@ a.text-very-light-gray-hover:hover {
   background: linear-gradient(to right, transparent 0%, transparent 37%, black 96%, black 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=1);
 }
-/* line 49, ../sass/import/_background.sass */
+/* line 51, ../sass/import/_background.sass */
 .bg-white-opacity {
   background-color: rgba(255, 255, 255, 0.85);
 }
-/* line 52, ../sass/import/_background.sass */
+/* line 54, ../sass/import/_background.sass */
 .bg-black-opacity {
   background-color: rgba(0, 0, 0, 0.85);
 }
-/* line 55, ../sass/import/_background.sass */
+/* line 57, ../sass/import/_background.sass */
 .bg-black-opacity-light {
   background-color: rgba(0, 0, 0, 0.5);
 }
-/* line 58, ../sass/import/_background.sass */
+/* line 60, ../sass/import/_background.sass */
 .bg-deep-pink-opacity {
   background-color: rgba(255, 33, 79, 0.85);
 }
-/* line 61, ../sass/import/_background.sass */
+/* line 63, ../sass/import/_background.sass */
 .bg-charcoal-gray {
   background-color: #0e0f10;
 }
